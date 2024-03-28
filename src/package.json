@@ -1,0 +1,30 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": ".", // Add your homepage URL here
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
+    // Add any other dependencies your project requires
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build", // This is the build script
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
